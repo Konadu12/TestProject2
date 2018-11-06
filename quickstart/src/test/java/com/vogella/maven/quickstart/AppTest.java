@@ -30,7 +30,7 @@ public class AppTest
 		
 		driver.findElement(By.xpath("//*[@id=\"about\"]")).click();
 		
-Thread.sleep(1000);
+		Thread.sleep(1000);
 		
 		driver.findElement(By.xpath("//*[@id=\"popupAboutClose\"]")).click();
 		
