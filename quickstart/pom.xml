@@ -6,6 +6,8 @@
   <artifactId>quickstart</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+  
+  
 
   <name>quickstart</name>
   <url>http://maven.apache.org</url>
@@ -16,6 +18,7 @@
 
   <dependencies>
     <dependency>
+    
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
@@ -25,7 +28,9 @@
 	    <groupId>org.seleniumhq.selenium</groupId>
 	    <artifactId>selenium-java</artifactId>
 	    <version>3.12.0</version>
+	    
     </dependency>
+     <dependency> <groupId>com.apple</groupId> <artifactId>AppleJavaExtensions</artifactId> <version>1.4</version> </dependency>
   </dependencies>
   <build>
     <pluginManagement>
