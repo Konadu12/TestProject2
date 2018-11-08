@@ -1,6 +1,6 @@
 package com.vogella.maven.quickstart;
 
-//import org.openqa.selenium.By;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
@@ -28,51 +28,51 @@ public class AppTest
 		
 		driver.manage().window().maximize();
 		
-		//driver.findElement(By.xpath("//*[@id=\"about\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"about\"]")).click();
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"popupAboutClose\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"popupAboutClose\"]")).click();
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"projects\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"projects\"]")).click();
 
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"popupProjectsClose\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"popupProjectsClose\"]")).click();
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"blog\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"blog\"]")).click();
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"popupBlogClose\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"popupBlogClose\"]")).click();
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"contact\"]")).click();
+		driver.findElement(By.xpath("//*[@id=\"contact\"]")).click();
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"name\"]")).sendKeys("Konadu");
+		driver.findElement(By.xpath("//*[@id=\"name\"]")).sendKeys("Konadu");
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"subject\"]")).sendKeys("Autos");
+		driver.findElement(By.xpath("//*[@id=\"subject\"]")).sendKeys("Autos");
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("Testmail@gmail.com");
+		driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("Testmail@gmail.com");
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"message\"]")).sendKeys("Dies ist nur eine Testnachricht");
+		driver.findElement(By.xpath("//*[@id=\"message\"]")).sendKeys("Dies ist nur eine Testnachricht");
 		
-		//Thread.sleep(1000);
+		Thread.sleep(1000);
 		
-		//driver.findElement(By.xpath("//*[@id=\"popupContact\"]/div/div[1]/div/form/input[4]")).click();
+		driver.findElement(By.xpath("//*[@id=\"popupContact\"]/div/div[1]/div/form/input[4]")).click();
 		
 		
 		
