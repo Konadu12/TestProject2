@@ -35,7 +35,6 @@
   <build>
     <pluginManagement>
       <plugins>
-    <!-- This provides the capability to package the artifact in an uber-jar, including its dependencies and to shade - i.e. rename - the packages of some of the dependencies. -->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-shade-plugin</artifactId>
